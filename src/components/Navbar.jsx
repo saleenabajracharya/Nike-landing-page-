@@ -14,7 +14,7 @@ export const Navbar = () => {
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
           <li className="nav-item">
-            <a className="nav-link text-uppercase"  href="#">Menu</a>
+            <a className="nav-link  text-uppercase"  href="#">Menu</a>
           </li>
           <li className="nav-item">
             <a className="nav-link text-uppercase" href="#">Location</a>

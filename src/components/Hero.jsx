@@ -19,8 +19,8 @@ export const Hero = () => {
                         </div>
                         <p className="mt-4" style={{ color: "#5A5959", fontWeight: "400", fontSize: "16px", lineHeight: "19.36px", fontFamily: "Inter" }}>Also Available On</p>
                         <div className='d-flex gap-3 brand_logo'>
-                            <img src="/images/flipkart.png" alt="ShoeImage" />
-                            <img src="/images/amazon.png" alt="ShoeImage" />
+                            <img src="/images/flipkart.png" alt="flipkart" />
+                            <img src="/images/amazon.png" alt="amazon" />
                         </div>
                     </div>
                     <div className="col-md-12 col-sm-12 col-lg-5 pt-5 mt-5 ms-md-5 text-lg-end">
