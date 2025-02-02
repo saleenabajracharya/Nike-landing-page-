@@ -4,11 +4,11 @@ export const Navbar = () => {
   return (
     <div>
         <nav className="navbar navbar-expand-lg" style={{color:"#fff"}}>
-    <div className="container-fluid">
+    <div className="container">
       <a className="navbar-brand ms-5 pt-3" href="#">
         <img src="/images/brand_logo.png" alt="logo" />
       </a>
-      <button className="navbar-toggler me-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <button className="navbar-toggler  me-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon"></span>
       </button>
       <div className="collapse navbar-collapse" id="navbarSupportedContent">

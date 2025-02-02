@@ -51,6 +51,44 @@ button.contact-us{
 .service-image img{
   margin-left: 6rem;
 }
+
+.form_control{
+  display:flex;
+  flex-direction: column;
+  width:492px;
+  position: relative;
+}
+
+.form_control input{
+  height: 40px;
+  padding: 0 8px;
+  
+}
+
+.form_control label{
+  font-size: 14px;
+  position: absolute;
+  top: -12px;
+  left: 10px;
+  background-color: white;
+  padding: 0 10px;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact-button{
+    display: flex;
+    flex-direction: row;
+    gap:15px;
+}
+
+.contact-button button{
+  width: 235px;
+}
 @media (min-width: 768px) and (max-width: 991px) {
   h1.text-uppercase{
     font-weight: 650;
@@ -65,15 +103,24 @@ button.contact-us{
   justify-content: center;
   }
 
-
+  .contact-button button{
+    width: 300px;
+  }
 
   .service-image img{
     margin-top: 3rem;
   }
 
-  button.contact-us{
-    width:492px;
-  }
+  .contact-button{
+    display: flex;
+    flex-direction: row;
+    gap:15px;
+}
+
+.contact-button button{
+  width: 235px;
+}
+
 
   button.contact{
     width:492px;
@@ -82,4 +129,138 @@ button.contact-us{
   .service-image img{
     margin-left: -3rem;
   }
+  
+  
 }
+
+@media (min-width: 992px) and (max-width: 1024px) {
+
+  html, body {
+    overflow-x: hidden;
+    width: 100%;
+}
+  h1.text-uppercase{
+    font-weight: 600;
+    font-size: 80px;
+  line-height: 90px;
+  margin-left: -100px;
+  }
+
+  h1.contact-us{
+    font-weight: 600;
+    font-size: 80px;
+  line-height: 90px;
+  margin-left: -70px;
+  }
+
+  h5.contact-us{
+    margin-left: -70px;
+  }
+
+  h5{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    margin-left: -100px;
+  }
+  
+  .container .hero-button{
+    margin-left: -100px;
+  }
+
+  .container .hero-brand{
+    margin-left: -100px;
+  }
+
+  .container .shoes-image{
+    margin-left: -180px;
+  }
+  
+  .container .row.contact-us{
+    margin-left: -70px;
+  }
+
+.contact-button{
+    gap:10px;
+}
+
+  button.contact-us{
+    width:400px;
+    font-size: 14px;
+  }
+
+  button.contact{
+    width:400px;
+  }
+
+  .contact-button button{
+    width: 192px;
+    font-size: 14px;
+  }
+  .form_control{
+    width:400px;
+
+  }
+  form button{
+    font-size: 14px;
+  }
+  .service-image img{
+    margin-left: -20px;
+    width: 480px
+  }
+
+}
+
+ @media only screen and (max-width: 480px){
+  h1.text-uppercase{
+  margin-left: -25px;
+  }
+
+  h5{
+    margin-left: -25px;
+  }
+  .container .hero-button{
+    margin-left: -25px;
+  }
+
+  .container .hero-brand{
+    margin-left: -25px;
+  }
+
+  .container .shoes-image{
+    margin-left: -25px;
+  }
+  
+
+  .contact-button button{
+    margin-left: -25px;
+  }
+  .form_control{
+    margin-left: -25px;
+
+  }
+  form button{
+    margin-left: -25px;
+}
+button.contact-us{
+  margin-left: -25px;
+}
+
+
+h1.contact-us{
+  font-weight: 650;
+  font-size: 100px;
+line-height: 98px;
+}
+
+h5{
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+}
+  .service-image img{
+    margin-left: -80px;
+  }
+
+  
+} 
