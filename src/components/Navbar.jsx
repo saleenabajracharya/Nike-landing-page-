@@ -1,6 +1,12 @@
 import React from 'react'
-
+import { NavLink } from 'react-router-dom';
 export const Navbar = () => {
+
+  const navLinkStyles = ({isActive}) =>{
+    return{
+        fontWeight: isActive ? 'bold':'normal',
+    }
+}
   return (
     <div>
         <nav className="navbar navbar-expand-lg" style={{color:"#fff"}}>
@@ -12,21 +18,18 @@ export const Navbar = () => {
         <span className="navbar-toggler-icon"></span>
       </button>
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
-          <li className="nav-item">
-            <a className="nav-link  text-uppercase"  href="#">Menu</a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link text-uppercase" href="#">Location</a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link text-uppercase" href="#">About</a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link text-uppercase" href="#">Contact</a>
-          </li>
-          
-        </ul>
+      <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li className="nav-item">
+              <NavLink className="nav-link text-uppercase" style={navLinkStyles} to="/">
+                Menu
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink className="nav-link text-uppercase" style={navLinkStyles} to="/contact-us">
+                Contact
+              </NavLink>
+            </li>
+          </ul>
         <button className="btn btn-danger btn-sm me-5 rounded-0" type="submit">Login</button>
       </div>
     </div>

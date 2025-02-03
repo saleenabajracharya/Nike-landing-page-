@@ -5,14 +5,19 @@ import './App.css'
 import { Navbar } from './components/navbar'
 import { Hero } from './components/Hero'
 import { ContactUs } from './components/ContactUs'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 function App() {
  
   return (
     <>
      <div>
-      <Navbar/>
-      <Hero/>
-      <ContactUs/>
+     <Router>
+      <Navbar /> 
+      <Routes>
+      <Route path="/" element={<Hero/>} />
+        <Route path="/contact-us" element={<ContactUs />} />
+      </Routes>
+    </Router>
     </div>
 
     </>

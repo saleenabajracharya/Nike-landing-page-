@@ -9,7 +9,7 @@ export const ContactUs = () => {
                     <br />JUST WANT TO CHAT , YOU CAN REACH OUT TO US THROUGH THE CONTACT FORM OF THIS PAGE, OR
                     BY PHONE, EMAIL, OR <br />SOCIAL MEDIA. </h5>
                 <div className="row contact-us">
-                    <div className="col-md-6 col-lg-6 mt-5 pt-4">
+                    <div className="col-md-5 col-lg-6 mt-5 pt-5">
                         <div className="contact-button">
                             <button className='btn btn-dark d-flex align-items-center ps-4 ' style={{ marginRight: "8px" }}>
                                 <i class="bi bi-chat-left-text text-white fw-bold pt-1" style={{ marginRight: "8px" }}></i> VIA CHAT SUPPORT</button>
@@ -35,8 +35,8 @@ export const ContactUs = () => {
                             <label htmlFor="text">Text</label>
                             <textarea  name="text"/>
                             </div>
-                            <div className="d-flex">
-                            <button className='btn btn-dark d-flex align-items-center justify-content-center ps-4 '>
+                            <div className="text-start">
+                            <button className='btn btn-dark '>
                                SUBMIT</button>
                                 </div>
                         </form>

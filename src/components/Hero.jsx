@@ -18,10 +18,10 @@ export const Hero = () => {
                             <button className="btn border-black btn-sm me-5 rounded-0 custom-btn" style={{ color: "#5A5959", height: "41px", width: "141px" }} type="submit">Category</button>
                         </div>
                         <div className="hero-brand">
-                        <p className="mt-4" style={{ color: "#5A5959", fontWeight: "400", fontSize: "16px", lineHeight: "19.36px", fontFamily: "Inter" }}>Also Available On</p>
-                        <div className='d-flex gap-3 brand_logo'>
+                        <p className="mt-4" style={{ color: "#5A5959", fontWeight: "400", fontSize: "16px", lineHeight: "19.36px"}}>Also Available On</p>
+                        <div className='brand_logo'>
                             <img src="/images/flipkart.png" alt="flipkart" />
-                            <img src="/images/amazon.png" alt="amazon" />
+                            <img src="/images/amazon.png" style={{paddingTop:"6px"}} alt="amazon" />
                         </div>
                         </div>
                     </div>
